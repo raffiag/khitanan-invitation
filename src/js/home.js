@@ -11,7 +11,7 @@ export const home = () => {
         return `
             <img src="${coupleImage}" alt="couple animation">
             <figcaption>
-                FATIH
+                M. AL FATIH MARWAN
             </figcaption>`;
     };
 
