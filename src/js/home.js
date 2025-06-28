@@ -6,11 +6,12 @@ export const home = () => {
     const [_, figureElement, timeElement, homeTime, calendarAnchor] = homeContainer.children;
 
     const generateFigureContent = ({bride}) => {
-        const {L: {name: brideLName}, P: {name: bridePName}, couple: coupleImage} = bride;
+        // Hanya mengambil coupleImage dari objek bride
+        const {couple: coupleImage} = bride; 
         return `
             <img src="${coupleImage}" alt="couple animation">
             <figcaption>
-                ${brideLName.split(' ')[0]} & ${bridePName.split(' ')[0]}
+                FATIH
             </figcaption>`;
     };
 
@@ -47,19 +48,21 @@ export const home = () => {
         const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
         if (distance < 0) {
-            clearInterval(intervalId);
+            clearInterval(intervalId); // Memastikan interval berhenti saat hitungan mundur selesai
             homeTime.innerHTML = generateCountdownMarkup(0, 0, 0, 0);
         } else {
             homeTime.innerHTML = generateCountdownMarkup(days, hours, minutes, seconds);
         }
     };
 
+    let intervalId; // Deklarasi di luar agar bisa diakses oleh clearInterval
+
     const startCountdown = (homeTime, timeData) => {
         const {year, month, date} = timeData.marriage;
         const endTime = new Date(`${String(year)}-${String(monthNameToNumber(month)).padStart(2, '0')}-${String(date).padStart(2, '0')}T00:00:00`);
 
         updateCountdown(endTime, homeTime);
-        setInterval(() => updateCountdown(endTime, homeTime), 1000);
+        intervalId = setInterval(() => updateCountdown(endTime, homeTime), 1000);
     };
 
     const initializeHome = () => {
