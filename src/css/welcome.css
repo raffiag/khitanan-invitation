@@ -52,12 +52,13 @@
     border: 2px solid #fff;
 }
 
-.welcome figure figcaption {
-    font-size: var(--fontSize-heading-base);
-    font-family: var(--sacramento);
-    font-weight: 400;
-    margin-top: 0.5rem;
+.home figure figcaption {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 4.5rem; /* atau sesuai ukuran yang kamu mau */
+    color: #333; /* opsional */
 }
+
 
 .welcome p span {
     font-size: 2rem;
