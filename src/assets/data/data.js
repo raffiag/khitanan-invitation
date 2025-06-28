@@ -100,7 +100,7 @@ export const data = {
         },
         {
             id: 2,
-            teks: 'Mempelai',
+            teks: 'Orang Tua',
             icon: 'bx bxs-group',
             path: '#bride',
         },
