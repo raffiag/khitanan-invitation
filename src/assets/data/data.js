@@ -2,18 +2,18 @@ export const data = {
     bride: {
         L: {
             id: 1,
-            name: 'Lorem Ipsum',
-            child: 'Putra ke lorem',
-            father: 'Lorem',
-            mother: 'Ipsum',
+            name: 'OKI MARWAN',
+            child: 'Ayah Dari Muhammad Al Fatih',
+            father: '',
+            mother: '',
             image: './src/assets/images/cowo.png'
         },
         P: {
             id: 2,
-            name: 'Ipsum Lorem',
-            child: 'Putri ke lorem',
-            father: 'Lorem',
-            mother: 'Ipsum',
+            name: 'IIN FATIMAH',
+            child: 'Ibu Dari Muhammad Al Fatih',
+            father: '',
+            mother: '',
             image: './src/assets/images/cewe.png'
         },
 
@@ -22,31 +22,31 @@ export const data = {
 
     time: {
         marriage: {
-            year: '2030',
-            month: 'November',
-            date: '14',
-            day: 'Kamis',
+            year: '2025',
+            month: 'Juli',
+            date: '05',
+            day: 'Sabtu',
             hours: {
-                start: '08.00',
+                start: '10.00',
                 finish: 'Selesai'
             }
         },
         reception: {
-            year: '2024',
-            month: 'November',
-            date: '14',
-            day: 'Kamis',
+            year: '2025',
+            month: 'Juli',
+            date: '05',
+            day: 'Sabtu',
             hours: {
-                start: '11.00',
+                start: '10.00',
                 finish: 'Selesai'
             }
         },
-        address: 'Kp. Lorem, RT 000/ RW 000, Desa.Lorem, Kec.Ipsum, Kab.Lorem, Lorem (1234)'
+        address: 'Kwitang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta'
     },
 
     link: {
-        calendar: 'https://calendar.app.google/oSVLRMYC79GzuA4f9',
-        map: 'https://maps.app.goo.gl/q1Ask2Jgd4ekiiKBA',
+        calendar: 'https://calendar.app.google/t5HL3Yu7PYkp39BMA',
+        map: 'https://maps.app.goo.gl/xgYD8fwNsqtry11SA',
     },
 
     galeri: [
@@ -75,21 +75,21 @@ export const data = {
     bank: [
         {
             id: 1,
-            name: 'Lorem Ipsum',
+            name: 'Oki Marwan',
             icon: './src/assets/images/bca.png',
-            rekening: '12345678'
+            rekening: '2700235893'
         },
-        {
-            id: 2,
-            name: 'Ipsum Lorem',
-            icon: './src/assets/images/bri.png',
-            rekening: '12345678'
-        },
+        // {
+        //     id: 2,
+        //     name: 'Ipsum Lorem',
+        //     icon: './src/assets/images/bri.png',
+        //     rekening: '12345678'
+        // },
     ],
 
     audio: './src/assets/audio/wedding.mp3',
 
-    api: 'https://script.google.com/macros/s/AKfycbyydz6N4p2VWUG8zsXeURv6ap9RP8a4eC3x6N3x6qTDjMVr1cIBz9S0NsHw2rWvBOSXGg/exec',
+    api: 'https://script.google.com/macros/s/AKfycbwzAeUHaiQbBBri3cuzDWG12ub3n2DQ7hBpfNk_b-1fu1-2zW1RGINNMpXZhBt8tMlfDw/exec',
 
     navbar: [
         {
