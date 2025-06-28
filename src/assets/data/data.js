@@ -3,7 +3,7 @@ export const data = {
         L: {
             id: 1,
             name: 'OKI MARWAN',
-            child: 'Ayah Dari Muhammad Al Fatih',
+            child: 'Ayah Dari Muhammad Al Fatih Marwan',
             father: '',
             mother: '',
             image: './src/assets/images/cowo.png'
@@ -11,7 +11,7 @@ export const data = {
         P: {
             id: 2,
             name: 'IIN FATIMAH',
-            child: 'Ibu Dari Muhammad Al Fatih',
+            child: 'Ibu Dari Muhammad Al Fatih Marwan',
             father: '',
             mother: '',
             image: './src/assets/images/cewe.png'
@@ -45,7 +45,7 @@ export const data = {
     },
 
     link: {
-        calendar: 'https://calendar.app.google/oS1T5XdpC3UNPwiw7',
+        calendar: 'https://calendar.app.google/t5HL3Yu7PYkp39BMA',
         map: 'https://maps.app.goo.gl/xgYD8fwNsqtry11SA',
     },
 
