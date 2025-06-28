@@ -1,5 +1,5 @@
-import {data} from "../assets/data/data.js";
-import {addClassElement, getQueryParameter, removeClassElement} from "../utils/helper.js";
+import { data } from "../assets/data/data.js";
+import { addClassElement, getQueryParameter, removeClassElement } from "../utils/helper.js";
 
 export const welcome = () => {
     const welcomeElement = document.querySelector('.welcome');
@@ -11,12 +11,13 @@ export const welcome = () => {
     const [iconButton] = audioButton.children;
 
     const generateFigureContent = (bride) => {
-        const {L: {name: brideLName}, P: {name: bridePName}, couple: coupleImage} = bride;
+        const { L: { name: brideLName }, P: { name: bridePName }, couple: coupleImage } = bride;
         return `
             <img src="${coupleImage}" alt="couple animation">
-            <figcaption style="text-align: center;">
-                FATIH
-            </figcaption>`;
+            <figcaption style="text-align: center; font-size: 3rem; font-weight: 700;">
+                M. AL FATIH MARWAN
+            </figcaption>
+`;
     };
 
     const generateParameterContent = () => {
